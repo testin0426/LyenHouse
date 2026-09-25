@@ -113,7 +113,7 @@ Packages/packages-lock.json linguist-generated
 *.avi                   lfs
 *.flv                   lfs
 *.mov                   lfs
-*.mp4                   lfs
+#*.mp4 lfs
 *.mpeg                  lfs
 *.mpg                   lfs
 *.ogv                   lfs
@@ -128,7 +128,7 @@ Packages/packages-lock.json linguist-generated
 *.jpeg                  lfs
 *.jpg                   lfs
 *.pict                  lfs
-*.png                   lfs
+#*.png lfs
 *.psd                   lfs
 *.tga                   lfs
 *.tif                   lfs
