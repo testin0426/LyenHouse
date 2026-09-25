@@ -21,7 +21,11 @@ order: 0
 ## 核心意象
 ：雨（雨、重中之重。） 元素、意象
 
-[最终vrchat参考](video/2026-09-2423-50-15.mp4)
+<p><strong>最终vrchat参考</strong></p>
+<video controls preload="none" playsinline width="100%" style="max-width:960px;">
+  <source src="video/2026-09-2423-50-15.mp4" type="video/mp4">
+  你的浏览器不支持内嵌视频，<a href="video/2026-09-2423-50-15.mp4">点此播放/下载</a>
+</video>
 
 ## 9.24 
 
@@ -33,9 +37,17 @@ order: 0
 
 总结： 完成度有点差，原先钢琴靠近是有每个音的声音的。不知为什么录制时又没有了。
 
-[9.24第一天探索demo](video/Movie_001.mp4)
+<p><strong>9.24第一天探索demo</strong></p>
+<video controls preload="none" playsinline width="100%" style="max-width:960px;">
+  <source src="video/Movie_001.mp4" type="video/mp4">
+  你的浏览器不支持内嵌视频，<a href="video/Movie_001.mp4">点此播放/下载</a>
+</video>
 
-[理论上可以实现的](video/2026-09-2503-18-26.mp4)
+<p><strong>理论上可以实现的</strong></p>
+<video controls preload="none" playsinline width="100%" style="max-width:960px;">
+  <source src="video/2026-09-2503-18-26.mp4" type="video/mp4">
+  你的浏览器不支持内嵌视频，<a href="video/2026-09-2503-18-26.mp4">点此播放/下载</a>
+</video>
 
 总结: 
 1. UI交互问题不解决其他大概会被拖死。考虑摇人。需求就是上面的部分。唉我真服了我本来策划能力就不行我也讨厌策划我真的是。要我我真的一个交互都不想做。如果让我全删那就保留就我今天检测碰撞做的拿起放下算了。。要不就这样算了？
@@ -50,7 +62,7 @@ order: 0
 空间划分完后细节填入等，墙壁->厚度->纹理 透明部分->书柜
 影子问题。。。阴影。。
 
-![design](image/image-4.png)
+<a href="image/image-4.png" target="_blank" rel="noopener"><img src="image/image-4.png" alt="design" style="max-width:100%;border:1px solid #ddd;border-radius:6px;"></a>
 
 ### 说明
 
@@ -61,8 +73,17 @@ order: 0
 但是项目应该只聚焦起居室 + 卧室。封闭好空间结束。
 问题:还是有些空间划分得有问题。和钢琴尺寸对不上（由于我钢琴还没来得及放dcc导致。。所以上面设计图尺寸也不太对（因为同时在引擎里面调整地编手感这一块。。奇幻。）
 
-[9.25demo process](video/2026-09-2518-19-48.mp4)
-[shader paramater adjust](video/2026-09-2518-12-56.mp4)
+<p><strong>9.25 demo process</strong></p>
+<video controls preload="none" playsinline width="100%" style="max-width:960px;">
+  <source src="video/2026-09-2518-19-48.mp4" type="video/mp4">
+  你的浏览器不支持内嵌视频，<a href="video/2026-09-2518-19-48.mp4">点此播放/下载</a>
+</video>
+
+<p><strong>shader parameter adjust</strong></p>
+<video controls preload="none" playsinline width="100%" style="max-width:960px;">
+  <source src="video/2026-09-2518-12-56.mp4" type="video/mp4">
+  你的浏览器不支持内嵌视频，<a href="video/2026-09-2518-12-56.mp4">点此播放/下载</a>
+</video>
 
 + 天空盒需要精修: 加底层模糊照片
 + 确定好范围后再->家具选取、摆放
@@ -108,15 +129,15 @@ tinf: 划分好空间区域、设计室内引导、家具摆放（根据27号调
 
 参考sp材质
 每种家具需要一张rgba的lightmap贴图(.tga)
-![sp示例](image/image.png) rgba各为灰度
+<a href="image/image.png" target="_blank" rel="noopener"><img src="image/image.png" alt="sp示例" style="max-height:180px;border:1px solid #ddd;border-radius:6px;"></a> rgba各为灰度
 lightmap r: ao
-![ao](image/image-1.png)
+<a href="image/image-1.png" target="_blank" rel="noopener"><img src="image/image-1.png" alt="ao" style="max-width:100%;border:1px solid #ddd;border-radius:6px;"></a>
 lightmap g: details（类似绒毛相关）
 
 ligtmap b: high（高光，是否被光点亮）
-![high](image/image-2.png)
+<a href="image/image-2.png" target="_blank" rel="noopener"><img src="image/image-2.png" alt="high" style="max-width:100%;border:1px solid #ddd;border-radius:6px;"></a>
 lightmap a: 金属度体现(0 or 1金属，0.5非金属)
-![金属程度，](image/image-3.png)
+<a href="image/image-3.png" target="_blank" rel="noopener"><img src="image/image-3.png" alt="金属程度" style="max-width:100%;border:1px solid #ddd;border-radius:6px;"></a>
 
 进阶: uv孤岛整合打包和烘焙
 ### Painting recipes (normalized 0.0–1.0)
