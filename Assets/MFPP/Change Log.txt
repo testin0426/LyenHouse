@@ -1,0 +1,69 @@
+1.0.2.8
+=======
+* Fixed a bug happening exclusively on mobile platforms where pausing the game could crash the Player script.
+
+1.0.2.7
+=======
+* Fixed a problem where the Player would get stuck with an error loop if a ladder was destroyed while a Player was using it.
+
+1.0.2.6
+=======
+* Fixed a problem where Player wouldn't work if crouching/jumping did not wish to be setup and the input didn't exist.
+
+1.0.2.5
+=======
+* Updated icons and look for a more polished modern feel.
+
+1.0.2.4
+=======
+* Fixed starting player and camera rotation not being taken into account.
+
+1.0.2.3
+=======
++ Added independant X and Y mouse sensitivity multiplier, allowing for Inverted Y looking and such.
+
+
+1.0.2.2
+=======
+* Fixed emerging glitch from 1.0.2.1 where player was unable to jump if auto-jump is disabled.
+
+
+1.0.2.1
+=======
+* Fixed obscure step offset glitch as player was leaping off and gravity was not applied correctly.
+
+
+1.0.2.0
+=======
++ Added Camera forward offset from pitch (Useful for immersive body model without clipping or looking over an edge better).
++ Added Crouch toggling options & input.
+
+
+1.0.1.1
+=======
+* Fixed picked up module wobbling when holding an object in place.
+
+
+1.0.1.0
+=======
++ New properties for grab force and duration on ladder module.
++ Added max pick up mass.
+* Fixed ladder misgrabbing when going downwards.
+* Applying adequate force to picked up objects via new property.
+* Now rotating picked up object according to camera.
+* Fixed picked up distance for adequate force and less proiminent prop surfing.
+
+
+1.0.0.2
+=======
+* Fixed missing "_MainTex" property error upon GetData() method called, should now emit default footsteps.
+
+
+1.0.0.1
+=======
+* Fixed incorrect keyboard layout for movement keys (Changed from AZERTY layout to QWERTY).
+
+
+1.0.0.0
+=======
+* Initial release.
