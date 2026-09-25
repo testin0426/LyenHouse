@@ -108,15 +108,15 @@
 
 参考sp材质
 每种家具需要一张rgba的lightmap贴图(.tga)
-![sp示例](image/image.png) rgba各为灰度
+![sp示例](image/image.jpg) rgba各为灰度
 lightmap r: ao
-![ao](image/image-1.png)
+![ao](image/image-1.jpg)
 lightmap g: details（类似绒毛相关）
 
 ligtmap b: high（高光，是否被光点亮）
-![high](image/image-2.png)
+![high](image/image-2.jpg)
 lightmap a: 金属度体现(0 or 1金属，0.5非金属)
-![金属程度，](image/image-3.png)
+![金属程度，](image/image-3.jpg)
 
 
 进阶（可选）：UV 孤岛整合打包、烘焙。
@@ -191,7 +191,7 @@ lightmap a: 金属度体现(0 or 1金属，0.5非金属)
 空间划分完后细节填入等，墙壁 -> 厚度 -> 纹理 透明部分 -> 书柜
 影子问题。。。阴影。。
 
-![design](image/image-4.png)
+![design](image/image-4.jpg)
 
 #### 说明
 
