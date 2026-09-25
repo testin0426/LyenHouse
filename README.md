@@ -22,7 +22,7 @@
 
 ---
 
-[最终 vrchat 参考](/video/2026-09-2423-50-15.mp4)
+[最终 vrchat 参考](video/2026-09-2423-50-15.mp4)
 
 ## 二、范围与边界
 
@@ -106,6 +106,19 @@
    - B = High（高光，是否被光点亮）
    - A = 金属度（0 or 1 金属，0.5 非金属）
 
+参考sp材质
+每种家具需要一张rgba的lightmap贴图(.tga)
+![sp示例](image/image.png) rgba各为灰度
+lightmap r: ao
+![ao](image/image-1.png)
+lightmap g: details（类似绒毛相关）
+
+ligtmap b: high（高光，是否被光点亮）
+![high](image/image-2.png)
+lightmap a: 金属度体现(0 or 1金属，0.5非金属)
+![金属程度，](image/image-3.png)
+
+
 进阶（可选）：UV 孤岛整合打包、烘焙。
 
 ### Painting Recipes（归一化 0.0–1.0）
@@ -158,9 +171,9 @@
 
 总结：完成度有点差，原先钢琴靠近是有每个音的声音的。不知为什么录制时又没有了。
 
-[9.24 第一天探索 demo](/video/Movie_001.mp4)
+[9.24 第一天探索 demo](video/Movie_001.mp4)
 
-[理论上可以实现的](/video/2026-09-2503-18-26.mp4)
+[理论上可以实现的](video/2026-09-2503-18-26.mp4)
 
 总结:
 1. UI 交互问题不解决其他大概会被拖死。考虑摇人。需求就是上面的部分。
@@ -178,7 +191,7 @@
 空间划分完后细节填入等，墙壁 -> 厚度 -> 纹理 透明部分 -> 书柜
 影子问题。。。阴影。。
 
-![design](image-4.png)
+![design](image/image-4.png)
 
 #### 说明
 
@@ -190,9 +203,9 @@
 
 问题: 还是有些空间划分得有问题。和钢琴尺寸对不上（由于我钢琴还没来得及放 dcc 导致。。所以上面设计图尺寸也不太对（因为同时在引擎里面调整地编手感这一块。。奇幻。））
 
-[9.25 demo process](/video/2026-09-2518-19-48.mp4)
+[9.25 demo process](video/2026-09-2518-19-48.mp4)
 
-[shader parameter adjust](/video/2026-09-2518-12-56.mp4)
+[shader parameter adjust](video/2026-09-2518-12-56.mp4)
 
 - 天空盒需要精修: 加底层模糊照片
 - 确定好范围后再 -> 家具选取、摆放
